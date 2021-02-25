@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ejhu.com</id>
+    <title>文一的小站</title>
+    <updated>2021-02-25T09:24:08.177Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ejhu.com"/>
+    <link rel="self" href="https://ejhu.com/atom.xml"/>
+    <subtitle>嗨！我是文一，欢迎访问我的小站！</subtitle>
+    <logo>https://ejhu.com/images/avatar.png</logo>
+    <icon>https://ejhu.com/favicon.ico</icon>
+    <rights>All rights reserved 2021, 文一的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[修改Github用户名]]></title>
+        <id>https://ejhu.com/post/P2kbKlEzE/</id>
+        <link href="https://ejhu.com/post/P2kbKlEzE/">
+        </link>
+        <updated>2021-02-24T15:12:29.000Z</updated>
+        <content type="html"><![CDATA[<p>最近想到之前Github用户名设置的有点长，不方便输入和分享，于是最近想要修改Github用户名。下面说一下Github用户名修改方法。</p>
+<h2 id="关于用户名修改">关于用户名修改</h2>
+<blockquote>
+<p>引用Github Docs：<br>
+更改用户名后，您的旧用户名即可供其他人申请使用。 对旧用户名下仓库的大多数引用会自动更改为新用户名。 不过，指向您个人资料的某些链接不会自动重定向。</p>
+</blockquote>
+<blockquote>
+<p>更改用户名后，指向以前的个人资料页面的链接（例如 https://github.com/previoususername）将返回 404 错误。</p>
+</blockquote>
+<h2 id="更改用户名步骤">更改用户名步骤</h2>
+<p>1.点击右上角头像，选择<strong>Settings</strong>；<br>
+<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/20210208220534.jpg" alt="" loading="lazy"><br>
+2.在左侧边栏中，点击<strong>Account</strong>；<br>
+<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Github%E6%9B%B4%E6%94%B9%E7%94%A8%E6%88%B7%E5%90%8D%E7%AC%AC2%E6%AD%A5.jpg" alt="" loading="lazy"><br>
+3.然后点击<strong>Change username</strong>；<br>
+<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Github%E6%9B%B4%E6%94%B9%E7%94%A8%E6%88%B7%E5%90%8D%E7%AC%AC3%E6%AD%A5.jpg" alt="" loading="lazy"><br>
+4.输入新的用户名，如果新的用户名可用，点击<strong>Change my username</strong>即可。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站笔记(4)]]></title>
+        <id>https://ejhu.com/post/20BEDJSk0/</id>
+        <link href="https://ejhu.com/post/20BEDJSk0/">
+        </link>
+        <updated>2021-02-16T15:14:37.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是建站笔记第四篇文章。<br>
+谈一下评论功能。</p>
+</blockquote>
+<p>网站搭建好后，可以添加评论系统与访客互动。我写文章用的是<em>Gridea</em>，下面以<strong>Gridea+Gitalk</strong>为例搭建评论系统。</p>
+<h1 id="1github">1.Github</h1>
+<h2 id="11注册-github-application">1.1注册 GitHub Application</h2>
+<pre><code>https://github.com/settings/applications/new
+</code></pre>
+<p>打开后页面如下：<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216204515.jpg" alt="" loading="lazy"></p>
+<ul>
+<li><em>Application name</em>：<strong>必填</strong>，应用名称；</li>
+<li><em>Homepage URL</em>：<strong>必填</strong>，应用的网址，即使用Gitalk的网站的网址；</li>
+<li><em>Application description</em>：<strong>选填</strong>，应用的说明；</li>
+<li><em>Authorization callback URL</em>：<strong>必填</strong>，授权回调网址，网站访问的网址。</li>
+</ul>
+<h2 id="12生成client-id和client-secret">1.2生成Client ID和Client Secret</h2>
+<p>填完以后，点击<em>Register application</em>进入以下页面：<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216224842.jpg" alt="" loading="lazy"><br>
+复制页面中的<strong>Client ID</strong>和<strong>Client Secret</strong>。</p>
+<h1 id="2gridea">2.Gridea</h1>
+<h2 id="21gitalk配置">2.1Gitalk配置</h2>
+<p>复制完以后，打开<em>Gridea</em>的评论配置。<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216225202.jpg" alt="" loading="lazy"></p>
+<ul>
+<li><em>Client ID</em>：填之前复制的<strong>Client ID</strong>；</li>
+<li><em>Client Secret</em>：填之前复制的<strong>Client Secret</strong>;</li>
+<li><em>仓库名称</em> ：填<strong>存放评论的仓库名</strong>；</li>
+<li><em>Owner</em>:填<strong>Github用户名</strong>。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐！Happy New Year!]]></title>
+        <id>https://ejhu.com/post/OrIS8ZW6b/</id>
+        <link href="https://ejhu.com/post/OrIS8ZW6b/">
+        </link>
+        <updated>2021-02-12T06:06:58.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>新年快乐！Happy New Year!</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210212141453.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站笔记(3)]]></title>
+        <id>https://ejhu.com/post/7l1RUUYG9/</id>
+        <link href="https://ejhu.com/post/7l1RUUYG9/">
+        </link>
+        <updated>2021-02-08T15:20:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是建站笔记第三篇文章。<br>
+谈一下图床。</p>
+</blockquote>
+<p>图床是用来存放文章图片的，所以图床的访问速度是很重要的。第三方的免费图床不太稳定，万一哪天关停了服务，会很麻烦的。所以自己搭图床有保障，比较稳定。</p>
+<p>搭建图床可以租用服务器，但是费用有点高，对于业余写文章的人而言没有必要。后来发现可以用<strong>Github+PiceeGo</strong>搭建图床，配置简单而且稳定，缺点是别人可以访问图床。</p>
+<h1 id="1github">1.Github</h1>
+<h2 id="11创建仓库">1.1创建仓库</h2>
+<p>首先创建一个新仓库，仓库需要设置为<strong>Public</strong>，不然通过PicGo上传的图片无法显示。<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208205323.jpg" alt="" loading="lazy"></p>
+<ul>
+<li><em>Repository name</em> 这是仓库名；</li>
+<li><em>Description</em> 这是仓库的描述，可选填；</li>
+<li><em>Add a README file</em> 添加自述文件，选不选都可以。</li>
+</ul>
+<h2 id="12创建-token">1.2创建 token</h2>
+<p>仓库建立后，点击右上角头像，然后点击<strong>Settings</strong>进入设置；<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208220534.jpg" alt="" loading="lazy"><br>
+接下来向下翻，在页面的下方找到<strong>Developer settings</strong>，点击进入；<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208221201.jpg" alt="" loading="lazy"><br>
+先点击<strong>Personal access tokens</strong>，然后点击<strong>Generate new token</strong>；<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208222055.jpg" alt="" loading="lazy"><br>
+填写<strong>Note</strong>,勾选复选框<strong>repo</strong>;<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208222952.jpg" alt="" loading="lazy"><br>
+接下来复制生成的<strong>token</strong>,<strong>注意：确保立即复制新的个人访问令牌，该token仅出现一次，关闭页面后无法再次看到它。</strong><br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208224349.jpg" alt="" loading="lazy"></p>
+<h1 id="2picgo">2.PicGo</h1>
+<h2 id="21下载picgo">2.1下载PicGo</h2>
+<p>官网：<em><a href="https://molunerfinn.com/PicGo/">https://molunerfinn.com/PicGo/</a></em></p>
+<h2 id="22设置">2.2设置</h2>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210208225628.jpg" alt="" loading="lazy"></figure>
+<ul>
+<li><em>设定仓库名</em> 填仓库名；</li>
+<li><em>设定分支名</em> 填<strong>main</strong>;</li>
+<li><em>设定Token</em> 填之前创建的<strong>Token</strong>;</li>
+<li><em>指定储存路径</em> 不需要填；</li>
+<li><em>设定自定义域名</em> 默认的域名需要改一下，修改为加速域名。</li>
+</ul>
+<blockquote>
+<p>格式：https://cdn.jsdelivr.net/gh/github用户名/仓库/</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站笔记(2)]]></title>
+        <id>https://ejhu.com/post/IdnqXEI28/</id>
+        <link href="https://ejhu.com/post/IdnqXEI28/">
+        </link>
+        <updated>2021-02-02T07:19:16.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是建站笔记第二篇文章。<br>
+谈一下写作工具。</p>
+</blockquote>
+<h2 id="概括">📋概括</h2>
+<p>静态页面写作一般用的是Markdown，Markdown 是一种轻量级标记语言。我现在用的是<strong>Gridea</strong>，<strong>Gridea是一个静态博客写作客户端</strong>，支持<em>Windows、Mac OS、Liunx</em>。可以使用<em>Github Pages</em>，<em>Gitee Pages</em>和<em>Coding Pages</em>等服务来搭建自己的静态博客，然后就能使用它进行愉快的创作了。当然也可以把它当作一个纯粹的markdown写作工具，并且最新的版本也支持 Katex 公式。</p>
+<h2 id="文章">📄文章</h2>
+<p>可以在<strong>文章</strong>选项查看和管理文章，非常方便。<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230718.jpg" alt="" loading="lazy"></p>
+<h2 id="菜单">📃菜单</h2>
+<p><strong>菜单</strong>可以管理页面的菜单。<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230521.jpg" alt="" loading="lazy"></p>
+<h2 id="️主题">⚙️主题</h2>
+<p><strong>主题</strong>管理网站的配置。在这里可以修改网站主题、名称、底部信息等。目前 Gridea 内置4 款主题 ，分别是<em>Notes、Simple、Fly、Paper</em>。除此之外可以在这里下载其他主题：<a href="https://gridea.dev/themes">https://gridea.dev/themes</a><br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230939.jpg" alt="" loading="lazy"></p>
+<h2 id="远程">📡远程</h2>
+<p><strong>远程</strong>是<strong>Gridea</strong>与<strong>Github Pages</strong>连接配置，只有配置完成后才能上传网站。</p>
+<ul>
+<li>域名：Github Pages 对应的域名（例如：<a href="https://shangshanruoshui.github.io">https://shangshanruoshui.github.io</a> 或 <a href="http://example.com">http://example.com</a>）</li>
+<li>仓库名称：自己的静态文件存放的仓库（例如：<a href="https://shangshanruoshui001.github.io">https://shangshanruoshui001.github.io</a>）</li>
+<li>分支：你的 Github Pages 对应的分支（例如：main）</li>
+<li>仓库用户名：仓库所属用户的用户名（通常就是自己的 Github 账号的昵称）</li>
+<li>邮箱：Git 推送时使用的邮箱（通常就是自己的 Github 账号的邮箱）</li>
+<li>令牌: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 Github personal access tokens</li>
+<li>CNAME: 可通过这个选项配置自己的域名（例如：<a href="http://example.com">http://example.com</a>）<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204231022.jpg" alt="" loading="lazy"></li>
+</ul>
+<p><strong>Gridea官网：<a href="https://gridea.dev">https://gridea.dev</a></strong></p>
+<p>先写到这里，抽空补充。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网页加载速度提升]]></title>
+        <id>https://ejhu.com/post/UsAwtXDus/</id>
+        <link href="https://ejhu.com/post/UsAwtXDus/">
+        </link>
+        <updated>2021-01-26T13:01:43.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>网站正在完善中.....🔧</strong></p>
+</blockquote>
+<p><s>现在本站为了<strong>提高访问速度，启动了双站点🚀</strong>。国内访问部署在<strong>Coding</strong>上的站点🇨🇳，国外访问部署在<strong>Github</strong>上的站点🌏。</s></p>
+<p>通过前几天网站有时无法访问发现，Coding有时候不稳定，所以放弃使用Coding加速访问。<br>
+<strong>现在使用Github+Vercel来部署网站</strong>，现在加载速度不错。<br>
+如图：<br>
+<img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/EJHU.COM2021.1.26%E6%B5%8B%E9%80%9F.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站笔记(1)]]></title>
+        <id>https://ejhu.com/post/TYkBkAlin/</id>
+        <link href="https://ejhu.com/post/TYkBkAlin/">
+        </link>
+        <updated>2020-12-31T14:33:07.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是建站笔记第一篇文章。<br>
+建网站需要有<strong>域名</strong>和<strong>主机/空间/服务器</strong>。</p>
+</blockquote>
+<p>下面先谈一下<strong>域名</strong>：<br>
+域名可以在域名注册商那里注册，具体的我就不说了，可以自己搜一下。我的域名是在Name注册的，支持团队也是不错的，不过需要用英语交流。Name.com Referral Program：<strong><a href="https://www.name.com/zh-cn/referral/425c65">https://www.name.com/zh-cn/referral/425c65</a></strong></p>
+<p>主流的国际域有*.com、.net、.org*（<strong>注意：.org目前不支持备案</strong>），.com是国际最广泛流行的通用域名格式。也有国家顶级域名，例如表示中国国家域名的.cn。</p>
+<p>有了域名然后选<strong>主机/空间/服务器</strong>：<br>
+开始我用的是<strong>Vultr</strong>的Cloud Instances，$5/1个月，自己备份和管理数据，有点麻烦而且小贵。</p>
+<p>后来又尝试<strong>WordPress.com</strong>(注意：不是<strong>WordPress</strong>)，就像在服务器已经安装好<strong>WordPress</strong>那样，只不过免费版使用的域名是：yourname.wordpress.com，不能使用自己的域名。还有，免费版在网页下方有”本站由WordPress.com驱动“，需要付费才能去除。</p>
+<p>现在本站放在<strong>Github</strong>上，免费而且不用操心，<strong>缺点是：1.Github页面源存储库的限制为 1GB；2.发布的 GitHub Pages 站点不得超过 1 GB；GitHub 页面网站的‎‎软带宽限制为每月 100GB；4.‎GitHub 页面网站的‎‎软‎‎限制为每小时 10 个生成。详见官方说明：<a href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages">https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages</a></strong></p>
+<p>先写到这里，如有不足之处欢迎指教。</p>
+]]></content>
+    </entry>
+</feed>
