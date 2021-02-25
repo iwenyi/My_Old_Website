@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ejhu.com</id>
     <title>文一的小站</title>
-    <updated>2021-02-25T09:48:04.756Z</updated>
+    <updated>2021-02-25T10:45:33.729Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ejhu.com"/>
     <link rel="self" href="https://ejhu.com/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://ejhu.com/images/avatar.png</logo>
     <icon>https://ejhu.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 文一的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[Gitalk评论出错]]></title>
+        <id>https://ejhu.com/post/ywZq3ZXsn/</id>
+        <link href="https://ejhu.com/post/ywZq3ZXsn/">
+        </link>
+        <updated>2021-02-25T10:31:11.000Z</updated>
+        <content type="html"><![CDATA[<p>我昨天发现了一个问题，就是更改了用户名后Gitalk评论出错，无法加载评论（<strong>Error: Request failed with status code 403</strong>）。</p>
+<p>我认为问题出在了没有重新设置GitHub Application,使用的还是以前的用户名。后来发现没有这么简单，在网上搜索后看到了这一篇文章。<br>
+<a href="https://zhuanlan.zhihu.com/p/350735142">https://zhuanlan.zhihu.com/p/350735142</a></p>
+<p>发现了问题：</p>
+<blockquote>
+<p><strong>PSA: Public demo server (http://cors-anywhere.herokuapp.com) will be very limited by January 2021, 31st</strong></p>
+</blockquote>
+<blockquote>
+<p><em>The demo server of CORS Anywhere (http://cors-anywhere.herokuapp.com) is meant to be a demo of this project. But abuse has become so common that the platform where the demo is hosted (Heroku) has asked me to shut down the server, despite efforts to counter the abuse (rate limits in #45 and #164, and blocking other forms of requests). Downtime becomes increasingly frequent (e.g. recently #300, #299, #295, #294, #287) due to abuse and its popularity.</em></p>
+</blockquote>
+<blockquote>
+<p><em>To counter this, I will make the following changes:</em><br>
+<em>1.The rate limit will decrease from 200 (#164) per hour to 50 per hour.</em><br>
+<em>2.By January 31st, 2021, http://cors-anywhere.herokuapp.com will stop serving as an open proxy.</em><br>
+<em>3.From February 1st. 2021, http://cors-anywhere.herokuapp.com will only serve requests after the visitor has completed a challenge: The user (developer) must visit a page at http://cors-anywhere.herokuapp.com to temporarily unlock the demo for their browser. This allows developers to try out the functionality, to help with deciding on self-hosting or looking for alternatives.</em></p>
+</blockquote>
+<p>然后点击这个链接：<a href="https://cors-anywhere.herokuapp.com/corsdemo">https://cors-anywhere.herokuapp.com/corsdemo</a>操作就可以了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[修改Github用户名]]></title>
         <id>https://ejhu.com/post/P2kbKlEzE/</id>
