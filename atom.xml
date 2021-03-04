@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ejhu.com</id>
     <title>文一的小站</title>
-    <updated>2021-02-25T10:45:33.729Z</updated>
+    <updated>2021-03-04T14:51:16.863Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ejhu.com"/>
     <link rel="self" href="https://ejhu.com/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://ejhu.com/images/avatar.png</logo>
     <icon>https://ejhu.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 文一的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[000Webhost]]></title>
+        <id>https://ejhu.com/post/f33V0UU5s/</id>
+        <link href="https://ejhu.com/post/f33V0UU5s/">
+        </link>
+        <updated>2021-03-04T14:42:42.000Z</updated>
+        <content type="html"><![CDATA[<p>最近发现了一个免费虚拟主机服务<strong>000Webhost</strong>，服务比较稳定，关键是可以绑域名，无广告。</p>
+<p>不过申请需要特殊上网，国内的ip申请不到。虽然配置不高，拿来练练也足够了。</p>
+<p>官网：<a href="https://www.000webhost.com">https://www.000webhost.com</a></p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/000webhost%E6%8E%A7%E5%88%B6%E5%8F%B0.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gitalk评论出错]]></title>
         <id>https://ejhu.com/post/ywZq3ZXsn/</id>
