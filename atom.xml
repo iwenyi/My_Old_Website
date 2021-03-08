@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ejhu.com</id>
     <title>文一的小站</title>
-    <updated>2021-03-04T14:51:16.863Z</updated>
+    <updated>2021-03-08T06:43:12.489Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ejhu.com"/>
     <link rel="self" href="https://ejhu.com/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://ejhu.com/images/avatar.png</logo>
     <icon>https://ejhu.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 文一的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[Firefox翻译插件]]></title>
+        <id>https://ejhu.com/post/BNW3kPdT2/</id>
+        <link href="https://ejhu.com/post/BNW3kPdT2/">
+        </link>
+        <updated>2021-03-08T05:58:20.000Z</updated>
+        <content type="html"><![CDATA[<p>最近又换回Firefox了，现在Firefox为主，Edge为辅。大部分网页能通过Firefox打开，只有个别的网站需要Chromium内核或IE浏览器才能打开时换用Edge或IE。</p>
+<p>现在有许多浏览器自带网页翻译功能，例如Chrome和Edge。还有一些国内的浏览器也有这项功能。但是也有一些因为其他原因没有这项功能的浏览器，例如Firefox和我之前用过的Vivaldi。</p>
+<p>虽然这项功能平时用不上，但是遇到看不懂的地方就很方便。有内置翻译功能的浏览器可以直接使用，没有也可以安装插件（扩展），安装上以后效果一样。Chromium内核的浏览器直接从Chrome网上应用店挑选下载，我认为很好用的翻译插件是侧边翻译和沙拉查词，这两个插件可以划词翻译和整页翻译，非常棒！Firefox的附加组件商店里也有翻译扩展，但是好多扩展失效了。有的只能划词翻译，无法翻译整个页面，所以在网上搜关于Firefox翻译网页的相关问题，有好多人问这方面的问题。我看了一下网友推荐的扩展，目前能在Firefox上使用的具有划词翻译和整页翻译的扩展是“<strong>翻译网页</strong>”。链接：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search</a><br>
+<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Firefox%E6%89%A9%E5%B1%95%E2%80%9C%E7%BF%BB%E8%AF%91%E7%BD%91%E9%A1%B5%E2%80%9D.jpg" alt="" loading="lazy"></p>
+<p>“<strong>翻译网页</strong>”可以在Firefox附加组件商店上下载，下载完成后简单设置一下就可以使用了，开箱即用。另外侧边翻译火狐版也可以使用，只是稍微麻烦些：侧边翻译在Firefox附加组件商店里下载安装，但是从商店下载的版本只能使用划词翻译的功能，无法使用页面翻译的功能，具体说明看这里：<a href="https://github.com/EdgeTranslate/EdgeTranslate/blob/master/docs/wiki/zh_CN/%E8%87%B4%E7%81%AB%E7%8B%90%E7%94%A8%E6%88%B7.md">https://github.com/EdgeTranslate/EdgeTranslate/blob/master/docs/wiki/zh_CN/致火狐用户.md</a><em>在商店中下载的版本无法使用翻译网页的功能，可以在扩展Github仓库中下载扩展文件后安装</em>。</p>
+<p>经过这一番操作，使Firefox也拥有翻译功能了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[000Webhost]]></title>
         <id>https://ejhu.com/post/f33V0UU5s/</id>
