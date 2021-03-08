@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ejhu.com</id>
     <title>文一的小站</title>
-    <updated>2021-03-08T06:49:15.719Z</updated>
+    <updated>2021-03-08T08:31:24.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ejhu.com"/>
     <link rel="self" href="https://ejhu.com/atom.xml"/>
@@ -132,7 +132,8 @@
         </link>
         <updated>2021-02-12T06:06:58.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
-<p>新年快乐！Happy New Year!</p>
+<p>新年快乐！Happy New Year!<br>
+2021年了，新的一年，放下过去，让心归零!待凛冬离去，雪融草青，相信一定有新的相逢将温暖延续。</p>
 </blockquote>
 <figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210212141453.png" alt="" loading="lazy"></figure>
 ]]></content>
